@@ -1,0 +1,9 @@
+I=imread('cameraman.png');
+figure;
+imshow(I);
+%I=im2double(I);
+X=I;
+figure;
+imshow(X);
+figure;
+plot(I,X,'.-r');
